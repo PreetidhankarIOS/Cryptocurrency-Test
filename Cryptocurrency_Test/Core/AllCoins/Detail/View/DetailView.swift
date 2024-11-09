@@ -228,7 +228,7 @@ extension DetailView{
                 .font(.custom(FontUtils.MAIN_BOLD, size: 16))
                 .foregroundColor(.black)
                 .padding(.bottom, 5)
-                    let today = Date().formatDate()
+                    //let today = Date().formatDate()
                     
                 Text(VModel.coin.athDate ?? "")
                 .font(.custom(FontUtils.MAIN_REGULAR, size: 12))
